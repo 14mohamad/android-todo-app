@@ -1,72 +1,94 @@
-# Android_Studio
+# Android To-Do List App
 
-### To Do List App
+## 📌 Overview
+This project is a mobile application developed using **Android Studio (Java)** as a final project in an Android development course.
 
-Final project in Android studio course.
+The app allows users to manage daily tasks efficiently, including creating, editing, completing, and deleting tasks.
 
-This Application offers students to manage their tasks, to stay organized and get more done.
+It also includes full authentication functionality using **Firebase**, allowing users to sign up, log in, and recover passwords.
 
-A student can create a task, edit, tick it as done and delete it.
+---
 
+## 🚀 Features
+- User authentication (Sign up / Login / Logout)
+- Password recovery via email (Firebase)
+- Create new tasks
+- Edit existing tasks
+- Mark tasks as completed
+- Delete tasks
+- Splash screen navigation
+- Clean and intuitive UI
 
-The whole project is connected to * Google's Firebase * and uses the functions provided by firebase.
+---
 
+## 🛠 Technologies
+- Java
+- Android Studio
+- Firebase Authentication
+- Firebase Database
+- RecyclerView
+- XML Layouts
 
-Developed by me and my friends as a final project.
+---
 
-All rights reserved – Demi Gelfond ,Ohad Cohen and Shoval Soli.
+## 👨‍💻 Authors
+Mohamad Mousa, Demi Gelfond, Ohad Cohen, Shoval Soli
 
-Visibility on app screens here :
+---
 
-# Sign-up Screen :
-This screen gives you the opportunity to sign up for the first time ! 
+## 📱 Application Screens
 
-![singUP](https://user-images.githubusercontent.com/93192285/158017769-4148120d-c865-4a92-8bd9-1d20bec5553d.JPG)
+### 📝 Sign-Up Screen
+![SignUp](https://user-images.githubusercontent.com/93192285/158017769-4148120d-c865-4a92-8bd9-1d20bec5553d.JPG)
 
-# Log-in Screen :
-This screen connects you to our App .
+---
 
-You can choose to stay signed-in whenever you open the App .
+### 🔐 Log-In Screen
+![Login](https://user-images.githubusercontent.com/93192285/158017831-0904c66d-0bc4-4a6c-bcd9-fb60b349e13d.JPG)
 
-In case you forgot your password, you can easily recover it by pressing the "Forgot password", it will transfer you to the password recovery screen, in which you enter your
-email and then get a password recovery link to your mail.
+---
 
-If you have'nt signed in yet, you have a special button that will lead you to the registration screen. 
+### 🔑 Forgot Password Screen
+![ForgotPassword](https://user-images.githubusercontent.com/93192285/158018056-fa4229a3-0f77-420c-8fe2-ec59d3142596.JPG)
 
+#### Email Notification
+![Email](https://user-images.githubusercontent.com/93192285/158018162-76f9e04d-3a5f-4cc1-b0c4-eeeaf48f9bae.JPG)
 
-![singInScreen](https://user-images.githubusercontent.com/93192285/158017831-0904c66d-0bc4-4a6c-bcd9-fb60b349e13d.JPG)
+---
 
+### ✅ Create Task Screen
+![CreateTask](https://user-images.githubusercontent.com/93192285/158023503-527d5f33-fc87-45c2-b5e9-419cfde8a3c6.jpeg)
 
-# Forgot password Screen :
-In this screen you can enter your email address.
+#### Mark Task as Done
+![DoneTask](https://user-images.githubusercontent.com/93192285/158023532-55d39268-1ab9-4fa6-a3de-2ed9a8bf6c03.jpeg)
 
-And you will automatically receive a notification to your private email for confirmation and identification.
+---
 
-![forgetPassScreen](https://user-images.githubusercontent.com/93192285/158018056-fa4229a3-0f77-420c-8fe2-ec59d3142596.JPG)
+### 🚀 Splash Screen
+![Splash](https://user-images.githubusercontent.com/93192285/158018375-eaf2ac85-806e-45d0-b97b-ee1e18b2b7de.JPG)
 
+---
 
- *E-Mail notification : 
- 
-![PassswordRecover](https://user-images.githubusercontent.com/93192285/158018162-76f9e04d-3a5f-4cc1-b0c4-eeeaf48f9bae.JPG)
+### 🗑 Delete Task
+![Delete](https://user-images.githubusercontent.com/93192285/158018385-37271aa7-0dd4-4eb0-91fd-a722c7df66a8.JPG)
 
-# Create Task Screen : 
+---
 
-![WhatsApp Image 2022-03-12 at 17 02 26](https://user-images.githubusercontent.com/93192285/158023503-527d5f33-fc87-45c2-b5e9-419cfde8a3c6.jpeg)
+### 🚪 Logout
+![Logout](https://user-images.githubusercontent.com/93192285/158018397-877abe43-cd0e-47f6-8d47-01a741c80018.JPG)
 
-We can mark a task as completed by ticking the checkbox next to the task :
+---
 
-![WhatsApp Image 2022-03-12 at 17 04 27](https://user-images.githubusercontent.com/93192285/158023532-55d39268-1ab9-4fa6-a3de-2ed9a8bf6c03.jpeg)
+## 🎯 Purpose
+This project was developed as part of an **Android Development course**  
+to practice building mobile applications, authentication systems, and database integration.
 
+---
 
-# Splash Screen - navigation screen :
-A launch screen that shows for a few seconds before the main screen .
+## 🔐 Note
+Firebase configuration file (`google-services.json`) is not included for security reasons.
 
-![logIn_navi_screen](https://user-images.githubusercontent.com/93192285/158018375-eaf2ac85-806e-45d0-b97b-ee1e18b2b7de.JPG)
+---
 
-# Delete Task Screen : 
-
-![deletePic](https://user-images.githubusercontent.com/93192285/158018385-37271aa7-0dd4-4eb0-91fd-a722c7df66a8.JPG)
-
-# Log - Out button : 
-
-![LogOutPic](https://user-images.githubusercontent.com/93192285/158018397-877abe43-cd0e-47f6-8d47-01a741c80018.JPG)
+## 🔗 GitHub
+https://github.com/14mohamad
